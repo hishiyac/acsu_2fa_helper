@@ -14,6 +14,7 @@ PCであれば、以下のコードを全て選択した上で、ブックマー
 ```javascript
 javascript:'use strict';(function(){if(location.href.includes("https://gakunin.ealps.shinshu-u.ac.jp/idp/Authn/External")){[..."多要素パスワード"].map(a=>a.charCodeAt(0)-64).forEach(a=>{(a=document.querySelector(`div[style*="i${a}.gif"]`))&&a.click()});var b=document.getElementById("btnLogin");b&&b.click()}else alert("多要素認証の画面で実行してください")})();
 ```
+スマートフォンの場合は知りません
 
 #### 2. ブックマークを編集
 
@@ -25,3 +26,4 @@ URLの前半から`[..."多要素パスワード"].map`の部分を探します�
 #### 3. 多要素認証画面で実行
 
 多要素認証画面でブックマークをクリックすると、多要素パスワードを自動入力します。
+スマートフォンの場合は、URL欄にブックマークの名前の一部を入力し、出てきたブックマークの候補を押すと実行できます。
